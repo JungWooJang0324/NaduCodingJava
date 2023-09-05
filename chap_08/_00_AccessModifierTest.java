@@ -1,6 +1,6 @@
 package chap_08;
 
-import chap_07.BlackBoxRepublish;
+import chap_07.*;
 
 public class _00_AccessModifierTest {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class _00_AccessModifierTest {
         //b1.color = ''; // protected
 
 
+        BlackBox b2
 
     }
 }
