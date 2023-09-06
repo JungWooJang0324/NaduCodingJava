@@ -24,7 +24,9 @@ public class _14_Polymolphism {
         //speedCam.recognizeLicensePlate(); => 이건 에러
 
         //사용을 위해서는 형변환을 시켜줘야합니다.
-        (SpeedCam)speedCam.recognizeLicensePlate();
+        ((SpeedCam)speedCam).recognizeLicensePlate();
+
+
 
     }
 }

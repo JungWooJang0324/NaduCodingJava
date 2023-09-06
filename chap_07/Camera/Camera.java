@@ -3,10 +3,16 @@ package chap_07.Camera;
 public class Camera {
     public String name;
 
-    public Camera() {
-        this.name = "카메라";
+
+
+    protected Camera(String name){
+        this.name = name;
     }
 
+
+    public Camera() {
+        this("카메라");
+    }
 
     public void takePic() {
         //사진 촬영

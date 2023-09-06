@@ -13,7 +13,7 @@ public class _12_Inheritance {
         SpeedCam sc = new SpeedCam();
 
 
-        System.out.println(cam.name);
+//        System.out.println(cam.name);
         System.out.println(fc.name);
         System.out.println(sc.name);
 
