@@ -11,7 +11,7 @@ public class _00_AccessModifierTest {
         //b1.color = ''; // protected
 
 
-        BlackBox b2
+
 
     }
 }
